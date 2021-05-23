@@ -16,7 +16,7 @@ import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import { LoginContext } from "./shared/context/LoginContext";
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const login = useCallback(() => {
     setIsLoggedIn(true);
